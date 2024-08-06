@@ -2,7 +2,7 @@ name: Build ruleset and geodata
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "30 */6 * * *"
   push:
     branches:
       - master
